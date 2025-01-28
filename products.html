@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="section-navbar">
+   <script type="module" src="navbar.js"></script>
+     </header>
+
+  <section class="section-products container">
+    <div>
+      <h2 class="section-common--heading">Checkout Shoporia Store</h2>
+    </div>
+    <section class="container">
+      <div id="productContainer"></div>
+    </section>
+  </section>
+
+  <!-- ======== Start Product Template Section ======== -->
+   <template id="productTemplete">
+    <div class="cards" id="cardValue">
+      <article class="information [card]">
+        <span class="category"></span>
+        <div class="imageContainer">
+        <img class="productsImage" src=""
+        style="width: 100%; height: auto;" alt="">
+      </div>
+      <h2 class="productName"></h2>
+      <div class="productRating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+
+      <p class="productDescription"></p>
+
+      <div class="productPriceElement">
+        <p class="productPrice"></p>
+        <p class="productActualPrice"></p>
+      </div>
+
+      <div class="productStockElement">
+        <p class="productProperty">Total Stocks Availabe:</p>
+        <p class="productStock"></p>
+      </div>
+
+      <div class="productQuantityElement">
+        <p class="productProperty">Quantity(Pieces)</p>
+        <div class="stockElement">
+          <button class="cartIncreament">+</button>
+          <p class="productQuantity">1</p>
+          <button class="cartDecreament">-</button>
+        </div>
+      </div>
+
+      <button class="add-to-cart-button">
+        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+      </button>
+      </article>
+    </div>
+   </template>
+
+   <footer class="section-footer">
+    <script type="module" src="footer.js"></script>
+  </footer>
+
+
+
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
