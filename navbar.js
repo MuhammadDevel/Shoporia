@@ -28,9 +28,6 @@ const navBarHTML = `
             <a href="products.html" class="nav-link">products</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">contact</a>
-          </li>
-          <li class="nav-item">
             <a href="addToCart.html" class="nav-item add-to-cart-button" id="cartValue">
               <i class="fa-solid fa-cart-shopping"> 0 </i>
             </a>
