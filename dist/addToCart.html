@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="image/png" sizes="96x96" rel="icon" href="/images/favicon.png">
+    <title>Shoporia AddToCart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="/assets/addToCart-CZsrrgob.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/style-DHCyr8J-.js">
+  <link rel="modulepreload" crossorigin href="/assets/footer-DD7-vrAD.js">
+  <link rel="modulepreload" crossorigin href="/assets/showToast-BMXN9CWy.js">
+  <link rel="stylesheet" crossorigin href="/assets/style-Bod2eNYD.css">
+</head>
+<body>
+        <!-- ========== Start Navbar ========== -->
+  <header class="section-navbar">
+    <section class="top_txt">
+  </header>
+   <!-- ========== End Navbar ========== -->
+ <section class="addToCartElement">
+    <div class="container">
+        <section>
+            <div id="productCartContainer"></div>
+        </section>
+
+        <section class="productCartTotalElem">
+            <div class="productCartTotalElement">
+                <p>Selected Offer Summary</p>
+                <div class="productOrderTotal">
+                    <div>
+                        <p>Sub Total:</p>
+                        <p class="productSubTotal">0</p>
+                    </div>
+                    <div>
+                        <p>Tax:</p>
+                        <p class="productTax">Rs.50</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Final Total:</p>
+                        <p class="productFinalTotal">0</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+ </section>
+
+  <!-- ======== Start Product Template Section ======== -->
+  <template id="productCartTemplate">
+    <div class="cards" id="cardValue">
+      <article class="information [ card ]">
+        <div>
+        <span class="category"></span>
+        </div>
+        <div class="imageContainer">
+        <img class="productsImage" src=""
+        style="width: 100%; height: auto;" alt="">
+      </div>
+      <h2 class="productName"></h2>
+
+      <p class="productPrice"></p>
+
+      <div class="stockElement">
+        <button class="cartIncreament">+</button>
+        <p class="productQuantity">1</p>
+        <button class="cartDecreament">-</button>
+      </div>
+
+      <button class="add-to-cart-button remove-to-cart-button">
+        Remove
+      </button>
+      </article>
+    </div>
+   </template>
+  <!-- ======== End Product Template Section ======== -->
+
+    <!-- ========== Start footer Section ========= -->
+  <footer class="section-footer">
+  </footer>
+  <!-- ========== End footer Section ========= -->
+
+</body>
+</html>
